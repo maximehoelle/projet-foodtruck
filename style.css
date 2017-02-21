@@ -1,0 +1,96 @@
+
+body{
+	background: lightyellow;
+	margin: : 15;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h1	{
+	color: #369BD5;
+	margin: 20;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+
+color: rgb(255, 165, 0);
+text-align: center;
+font-style: arial;
+text-decoration: underline;
+
+}
+
+h3{
+margin-top: 0px;
+}
+
+
+#header {
+background-image: url(images/johnjohn-presentation.jpg);
+background-size:cover;
+height: 500px;
+
+}
+
+.spacer{
+	height: 8em;
+}
+
+
+.daily-session {
+	font-size: 20px;
+
+	
+}
+
+.surf-picture {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	background-size: cover;
+
+}
+#footer {
+font-size: 40px;
+background-image: url(https://images.pexels.com/photos/139507/pexels-photo-139507.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+background-size: cover;
+
+
+}
+
+#footer a {
+	color: rgb(10,10,10);
+
+}
+#footer a:hover {
+	color: rgb(150,150,150);
+
+}
+
+/* How to override the default Bootstrap navbar */
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
